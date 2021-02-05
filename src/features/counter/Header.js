@@ -10,7 +10,8 @@ function Header() {
                 <img src="" alt=""/>
 
                 <div className="header__search">
-                    
+                    {/* SearchIcon */}
+                    <input type="text"/>
                 </div>
 
             </div>
