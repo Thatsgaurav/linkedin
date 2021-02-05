@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Header from './features/counter/Header';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <h1>Linkdin Clone</h1>
 
       {/* Header */}
+      <Header />
 
       {/* App Body */}
       {/* Sidebar */}
