@@ -5,7 +5,6 @@ import Header from './features/counter/Header';
 function App() {
   return (
     <div className="App">
-      <h1>Linkdin Clone</h1>
 
       {/* Header */}
       <Header />
