@@ -1,4 +1,4 @@
-.feed {
+.Feed {
     flex: 0.6;
     margin: 0 20px;
 }
@@ -31,4 +31,8 @@
     margin-left: 10px;
     outline-width: 0;
     font-weight: 600;
+}
+
+.feed__input > form > button {
+    display: none;
 }
