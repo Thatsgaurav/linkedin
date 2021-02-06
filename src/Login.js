@@ -2,6 +2,10 @@ import React from 'react'
 import './Login.css';
 
 function Login() {
+    const LoginToApp = () => {};
+
+    const register = () => {};
+
     return (
         <div className="Login">
             <img src="https://news.hitb.org/sites/default/files/styles/large/public/field/image/500px-LinkedIn_Logo.svg__1.png?itok=q_lr0Vks" alt="" />
@@ -16,11 +20,11 @@ function Login() {
 
                 <input placeholder='Password' type="password" />
 
-                <button>Sign In</button>
+                <button type='submit' onClick={LoginToApp}>Sign In</button>
             </form>
 
             <p>
-                Not a member?
+                Not a member?{" "}
                 <span className='login__register' onClick={register}>Register Now</span>
             </p>
         </div>
