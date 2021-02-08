@@ -14,3 +14,5 @@ const firebaseConfig = {
   const auth = firebase.auth();
 
   export { db, auth };
+
+  // https://www.linkedin.com/in/gaurav-singh-0b69931aa/
